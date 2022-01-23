@@ -1,0 +1,31 @@
+\documentclass[12pt,a4paper,oneside,openright]{report}
+\usepackage{t1enc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,magyar]{babel}
+\def\magyarOptions{hyphenation=huhyphn}
+
+\usepackage[style=magyar,babel=other]{biblatex}
+\bibliography{demo}
+
+\begin{document}
+\textbf{Hungarian citation with 1 author:} \cite{mezei_1999}
+
+\textbf{Hungarian citation with 2 authors:} \cite{david_snijders}
+
+\textbf{Hungarian citation with 3 authors:} \cite{gyuris_molnar_szanto_1992}
+
+\textbf{Hungarian citation with 4 authors:} \cite{benyei_guraly_gyori_mezei_2000}
+
+\textbf{Hungarian book:} \cite{gyori_guraly_pelle_grof_2006}
+
+\textbf{English citation with 1 author:} \cite{cordray_pion_1991}
+
+\textbf{English citation with 2 author:} \cite{tauber_siebel_1991}
+
+\textbf{English citation with 3 authors:} \cite{berk_kriegler_ylviasker_2005}
+
+\newpage
+
+\printbibliography
+
+\end{document}
